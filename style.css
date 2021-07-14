@@ -1,12 +1,21 @@
 body{
     display: flex;
     flex-direction: column;
-    align-items: center;    
+    align-items: center; 
+    color: #2E8B57;  
+    background-color: #BC8F8F; 
 }
 main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10px;
+}
+#botao{
+    border-radius: 50px;
+    border: #2E8B57 1px solid;
+    color: #006400;
+    background-color: #BC8F8F;
 }
 @media (min-width: 768px){
     main{
